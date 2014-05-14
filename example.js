@@ -1,0 +1,6 @@
+var sampleData = ["Ensign Babyface!", "I'd like to think that I haven't changed those things, sir.", "Shields up! Rrrrred alert!", "And blowing into maximum warp speed, you appeared for an instant to be in two places at once.", "Did you come here for something in particular or just general Riker-bashing?", "Some days you get the bear, and some days the bear gets you.", "Sure. You'd be surprised how far a hug goes with Geordi, or Worf.", "Wouldn't that bring about chaos?", "For an android with no feelings, he sure managed to evoke them in others.", "I recommend you don't fire until you're within 40,000 kilometers.", "Sorry, Data.", "Is it my imagination, or have tempers become a little frayed on the ship lately?", "This should be interesting.", "The look in your eyes, I recognize it. You used to have it for me.", "Fear is the true enemy, the only enemy.", "Not if I weaken first.", "Mr. Crusher, ready a collision course with the Borg ship.", "Commander William Riker of the Starship Enterprise."];
+
+window.onload = function() {
+	autoFilterLibrary.drawAutoFilter("my-example-list", sampleData);
+	autoFilterLibrary.drawAutoFilter("my-other-example-list", sampleData, {listItemCSS: {color: "green"}});
+};
