@@ -1,4 +1,4 @@
 filter.js
 =========
 
-a small library for autofiltering lists based on user input.
+a small plugin for autofiltering lists based on user input.
